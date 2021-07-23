@@ -1,16 +1,14 @@
-Code for doing analysis and generating figures for Gillespie et al, "Hippocampal replay represents specific past experiences rather than a plan for subsequent choice"
+Code for doing analysis and generating figures for Gillespie et al, "Hippocampal replay represents specific past experiences rather than a plan for subsequent choice" Neuron 2021. Please contact Anna Gillespie (anna.gillespie@ucsf.edu) with any questions about this codebase.
 
 Franklab repos needed:
 
-for data processing: trodes2ff_shared (franklab public) 
+for data processing: trodes2ff_shared 
 
-for analysis: filterframework_shared (franklab private)
+for analysis: filterframework_shared 
 
 Context:
 Data acquired 2018-2020 using trodes1.6.3 and 30-tet DKR drive version for 4 rats: Jaq, Roquefort, Despereaux, Montague
 Data was extracted using D. Liu's python extractor to run Trodes export functions, then processed and analysed in Matlab 2015b
-
-Decoding results used are "ripdecodesv3.mat" pulled from /filterframework/decoding/animal_day_ep_shuffle_0_posterior_acausalv2_full2state.nc (2-state state space model, decoding all times, 2ms bins, 5cm time bins, uniform and stepwise transmats (equal prob back/forward/stay); decoding done mostly at LLNL)
 
 Figures were saved in as pdf or eps and formatted in Adobe Illustrator
 
@@ -19,7 +17,7 @@ Data in NWB format is available on the DANDI Archive: https://dandiarchive.org/d
 saved outputs (f) included:
 
 	- dfs_ripcontent -> ctrl_ripcontent.mat
-	- dfs_ripcontent_ripspeed -> ctrl_ripcontent_ripspeed.mat
+	- dfs_ripcontent_ripspeed -> ctrl_ripcontent_ripspeed.mat [EDIT: too big for github, please request if needed]
 	- dfs_ripcontent_movement -> ctrl_movementquant_full2state_all_withtrialwise.mat
 
 Code to generate figures:
