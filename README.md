@@ -16,7 +16,7 @@ Data in NWB format is available on the DANDI Archive: https://dandiarchive.org/d
 
 saved outputs (f) included:
 
-	- dfs_ripcontent -> ctrl_ripcontent.mat
+	- dfs_ripcontent -> ctrl_ripcontent.mat [EDIT: too big for github, please request if needed]
 	- dfs_ripcontent_ripspeed -> ctrl_ripcontent_ripspeed.mat [EDIT: too big for github, please request if needed]
 	- dfs_ripcontent_movement -> ctrl_movementquant_full2state_all_withtrialwise.mat
 
